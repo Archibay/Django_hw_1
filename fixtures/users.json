@@ -1,0 +1,56 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$Bg11DhCfYdxGZyW4YkzslT$5J3RZWxdbYc9jReSCeCa54Ishi/JB65rL8l4ECSmHfI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Benjamin Holmes",
+    "first_name": "",
+    "last_name": "",
+    "email": "jessicacarson@hotmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-27T17:59:12.171Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$wwbUNFfZLv1koIPQe7RqlA$LGj1BF2KsgL5a+O3btOS9aR2tzW9/OTsGuDIBgTHBj0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Sonya Holmes",
+    "first_name": "",
+    "last_name": "",
+    "email": "erin98@herrera-gonzalez.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-27T17:59:12.300Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$8Vpkr7e4UQN5Ucslr5Ckua$Tm9CSWFtE+zYVs5rMU8HTJbgWi6RJ5eSs56+UQoKWa8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Phillip Smith",
+    "first_name": "",
+    "last_name": "",
+    "email": "wjohnson@yahoo.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-10-27T17:59:12.430Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
