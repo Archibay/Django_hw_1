@@ -1,0 +1,34 @@
+[
+{
+  "model": "catalog.shipper",
+  "pk": 1,
+  "fields": {
+    "sipper_name": "Rozetka",
+    "city": 1
+  }
+},
+{
+  "model": "catalog.shipper",
+  "pk": 2,
+  "fields": {
+    "sipper_name": "Bigl",
+    "city": 5
+  }
+},
+{
+  "model": "catalog.shipper",
+  "pk": 3,
+  "fields": {
+    "sipper_name": "Lvivska kava",
+    "city": 2
+  }
+},
+{
+  "model": "catalog.shipper",
+  "pk": 4,
+  "fields": {
+    "sipper_name": "Glovo",
+    "city": 4
+  }
+}
+]

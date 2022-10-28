@@ -1,0 +1,42 @@
+[
+{
+  "model": "catalog.city",
+  "pk": 1,
+  "fields": {
+    "city_name": "Kyiv",
+    "city_index": 11001
+  }
+},
+{
+  "model": "catalog.city",
+  "pk": 2,
+  "fields": {
+    "city_name": "Lviv",
+    "city_index": 91001
+  }
+},
+{
+  "model": "catalog.city",
+  "pk": 3,
+  "fields": {
+    "city_name": "Kharkiv",
+    "city_index": 63001
+  }
+},
+{
+  "model": "catalog.city",
+  "pk": 4,
+  "fields": {
+    "city_name": "Dnipro",
+    "city_index": 43001
+  }
+},
+{
+  "model": "catalog.city",
+  "pk": 5,
+  "fields": {
+    "city_name": "Ternopil",
+    "city_index": 32001
+  }
+}
+]

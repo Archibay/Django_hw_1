@@ -2,8 +2,8 @@ from django.db import models
 
 
 class City(models.Model):
-    city_name = models.CharField(max_length=200)
-    city_index = models.IntegerField(max_length=5, unique=True)
+    city_name = models.CharField(max_length=200, unique=True)
+    city_index = models.IntegerField(unique=True)
 
     def __str__(self):
         return self.city_name
