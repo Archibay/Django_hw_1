@@ -1,0 +1,34 @@
+[
+{
+  "model": "catalog.article",
+  "pk": 1,
+  "fields": {
+    "article_name": "Phone",
+    "article_desc": "Samsung is a nice phone"
+  }
+},
+{
+  "model": "catalog.article",
+  "pk": 2,
+  "fields": {
+    "article_name": "Phone2",
+    "article_desc": "Iphone is a nice phone"
+  }
+},
+{
+  "model": "catalog.article",
+  "pk": 3,
+  "fields": {
+    "article_name": "PC",
+    "article_desc": "Personal computer for a work"
+  }
+},
+{
+  "model": "catalog.article",
+  "pk": 4,
+  "fields": {
+    "article_name": "Laptop",
+    "article_desc": "Laptop for games it's a real"
+  }
+}
+]
