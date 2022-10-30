@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Triangle</title>
+</head>
+<body>
+<form method="get" >
+    {% if hypotenuse is None %}
+    <h3>Input values of your cathetuses here:</h3><br>
+        {{ form }}
+        <input type="submit" name='submit' value="Ok">
+    {% else %}
+    <h3>Value of hypotenuse is: {{ hypotenuse }}</h3><br>
+    <p>Thanks that choose our service</p>
+    {% endif %}
+</form>
+</body>
+</html>
