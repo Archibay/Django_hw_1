@@ -10,7 +10,7 @@ Here list what was done:
 * new models for testing was created (City, Article, Shipper and Client)
 * all fixtures in project
 * additional views that can be used:
-  * /catalog/triangle/  -  to calkulate hypotenuse in triangle
+  * /triangle/  -  to calkulate hypotenuse in triangle
 
 <h3>Here is models diagram:
 
