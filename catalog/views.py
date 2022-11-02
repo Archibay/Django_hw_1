@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from .forms import Triangle
+from .forms import Triangle, Person1
 
 
 def triangle(request):
@@ -13,3 +13,12 @@ def triangle(request):
     else:
         form = Triangle()
     return render(request, 'triangle.html', {'form': form})
+
+
+def person_create(request):
+    form = Person1()
+    return render(request, 'create_person.html', {"form": form})
+
+
+def person_get(request):
+    pass
