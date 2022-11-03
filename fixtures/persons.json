@@ -1,0 +1,20 @@
+[
+{
+  "model": "catalog.person",
+  "pk": 1,
+  "fields": {
+    "first_name": "Artur",
+    "last_name": "Vorontsov",
+    "email": "archibay16@gmail.com"
+  }
+},
+{
+  "model": "catalog.person",
+  "pk": 2,
+  "fields": {
+    "first_name": "Vasya",
+    "last_name": "Pupkin",
+    "email": "vasyap@gmail.com"
+  }
+}
+]
