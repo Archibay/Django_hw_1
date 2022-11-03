@@ -5,7 +5,7 @@
     <title>Triangle</title>
 </head>
 <body>
-<form method="get" >
+<form action="{% url 'catalog:triangle' %}" method="get" >
     {% if hypotenuse is None %}
     <h3>Input values of your cathetuses here:</h3><br>
         {{ form }}
