@@ -5,10 +5,10 @@
     <title>Create Person</title>
 </head>
 <body>
-<form>
+<form action="{% url 'catalog:person_create' %}" method="post">
     {% csrf_token %}
-    {{ form }}
-    <input type="submit" value="Create">
+    {{ form.as_p }}
+    <p><input type="submit" value="Create"></p>
 </form>
 </body>
 </html>
