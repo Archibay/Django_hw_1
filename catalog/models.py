@@ -1,4 +1,6 @@
+import datetime
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class City(models.Model):
@@ -43,3 +45,24 @@ class Person(models.Model):
 
     def __str__(self):
         return self.last_name
+
+
+class Logs(models.Model):
+    class Method(models.TextChoices):
+        GET = 'GE', _('Get request')
+        HEAD = 'HE', _('Head request')
+        POST = 'PO', _('Post request')
+        PUT = 'PU', _('Put request')
+        DELETE = 'DE', _('Delete request')
+        CONNECT = 'CO', _('Connect request')
+        OPTIONS = 'OP', _('Options request')
+        TRACE = 'TR', _('Trace request')
+        PATCH = 'PA', _('Path request')
+
+    path = models.CharField(max_length=100)
+    method = models.CharField(max_length=2, choices=Method.choices)
+    timestamp = models.DateTimeField(datetime.datetime.now())
+    values = models.JSONField()
+
+    def __str__(self):
+        return self.path
