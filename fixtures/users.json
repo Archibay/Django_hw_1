@@ -52,5 +52,23 @@
     "groups": [],
     "user_permissions": []
   }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$pjelRZmU0F51x0nWJotMXd$FiZRA9B5DIE7/Cw4dgAY50/Ub7m980CsdlRMobfkj+Q=",
+    "last_login": "2022-11-06T22:38:49.002Z",
+    "is_superuser": true,
+    "username": "Artur",
+    "first_name": "",
+    "last_name": "",
+    "email": "archibay16@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-11-06T22:38:13.114Z",
+    "groups": [],
+    "user_permissions": []
+  }
 }
 ]

@@ -1,0 +1,111 @@
+[
+{
+  "model": "catalog.logs",
+  "pk": 1,
+  "fields": {
+    "path": "/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:27:39.788Z",
+    "values": {}
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 2,
+  "fields": {
+    "path": "/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:44:37.183Z",
+    "values": {}
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 3,
+  "fields": {
+    "path": "/triangle/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:44:42.841Z",
+    "values": {}
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 4,
+  "fields": {
+    "path": "/triangle/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:44:47.781Z",
+    "values": {
+      "cathetus_1": "4",
+      "cathetus_2": "5",
+      "submit": "Ok"
+    }
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 5,
+  "fields": {
+    "path": "/person/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:44:53.644Z",
+    "values": {}
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 6,
+  "fields": {
+    "path": "/person/1/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:44:57.934Z",
+    "values": {}
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 7,
+  "fields": {
+    "path": "/person/2/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:45:01.156Z",
+    "values": {}
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 8,
+  "fields": {
+    "path": "/person/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:45:04.527Z",
+    "values": {}
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 9,
+  "fields": {
+    "path": "/person/",
+    "method": "PO",
+    "timestamp": "2022-11-08T15:45:11.864Z",
+    "values": {
+      "csrfmiddlewaretoken": "favj3CXt6bqTU0yuazd0Lx4nmMuTIF3nGB76iMD79UfgQTW5QO40m2tkMSTD2WAt",
+      "first_name": "fghd",
+      "last_name": "dfgh",
+      "email": "ewr!@fsdg.com"
+    }
+  }
+},
+{
+  "model": "catalog.logs",
+  "pk": 10,
+  "fields": {
+    "path": "/person/",
+    "method": "GE",
+    "timestamp": "2022-11-08T15:45:11.940Z",
+    "values": {}
+  }
+}
+]
