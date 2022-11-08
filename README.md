@@ -11,6 +11,9 @@ Here list what was done:
 * all fixtures in project
 * additional views that can be used:
   * /triangle/  -  to calkulate hypotenuse in triangle
+  * /person/ - to create new person and add it to db
+  * /person/int:pk/ - to get a person and update data
+* new ModelAdmin - Logs
 
 <h3>Here is models diagram:
 

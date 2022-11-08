@@ -1,4 +1,5 @@
 import datetime
+
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
@@ -62,7 +63,7 @@ class Logs(models.Model):
     path = models.CharField(max_length=100)
     method = models.CharField(max_length=2, choices=CMethod.choices)
     timestamp = models.DateTimeField(datetime.datetime.now())
-    values = models.JSONField(default={})
+    values = models.JSONField(default=dict)
 
     def __str__(self):
         return self.path

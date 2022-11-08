@@ -1,4 +1,5 @@
 import datetime
+
 from catalog.models import Logs
 
 
@@ -19,7 +20,6 @@ class LogMiddleware:
                 q = request.POST
             else:
                 q = request.GET
-            # m = request.method
             q = Logs(path=request.path, method=Logs.CMethod[request.method], timestamp=datetime.datetime.now(),
                      values=q)
             Logs.save(q)
