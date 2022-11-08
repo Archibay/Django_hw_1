@@ -48,7 +48,7 @@ class Person(models.Model):
 
 
 class Logs(models.Model):
-    class Method(models.TextChoices):
+    class CMethod(models.TextChoices):
         GET = 'GE', _('Get request')
         HEAD = 'HE', _('Head request')
         POST = 'PO', _('Post request')
@@ -60,9 +60,9 @@ class Logs(models.Model):
         PATCH = 'PA', _('Path request')
 
     path = models.CharField(max_length=100)
-    method = models.CharField(max_length=2, choices=Method.choices)
+    method = models.CharField(max_length=2, choices=CMethod.choices)
     timestamp = models.DateTimeField(datetime.datetime.now())
-    values = models.JSONField()
+    values = models.JSONField(default={})
 
     def __str__(self):
         return self.path
